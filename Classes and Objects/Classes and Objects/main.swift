@@ -8,6 +8,7 @@
 
 import Foundation
 
-let myCar = Car()
-let batmobile = Car(customerChosenColor: <#T##String#>)
-print(myCar.color)
+let newSelfDrivingCar = SelfDrivingCar(customerChosenColor: "turquoise")
+
+newSelfDrivingCar.drive()
+
